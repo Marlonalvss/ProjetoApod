@@ -1,0 +1,193 @@
+/*---- RESET DO CSS ----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--- CONFIGURAÇÕES DO BODY ---*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,300;1,500&display=swap');
+
+body {
+    background-color: rgb(0, 217, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(./assets/world.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+}
+
+/*--- HEADER ---*/
+header {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#botao{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #142374dc;
+}
+i{
+    font-size: 135%;
+}
+.botoesAncora {
+    border-color: #0fcbec;
+    color: rgb(255, 255, 255);
+    background-image: -webkit-linear-gradient(45deg, #0fcbec 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #0fcbec 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.botoesAncora:hover {
+    background-position: 0;
+}
+
+
+/*--- MAIN ---*/
+main {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#astronauta {
+    margin-right: 10px;
+    width: 25%;
+    height: 70%;
+    animation: floaty 1s infinite alternate;
+}
+
+@keyframes floaty {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.card {
+    position: relative;
+    width: 600px;
+    height: 390px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.card .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card .circle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 124, 255, 0.699);
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+
+}
+
+.card .circle:hover:before {
+    background: rgba(10, 124, 255, 0.87);
+    clip-path: circle(400px at center);
+}
+
+.card img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.card:hover img {
+    left: 80%;
+    height: 450px;
+}
+
+.card .textoabertura {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .textoabertura {
+
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card .textoabertura h2 {
+    color: #fff;
+    font-size: 2em;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+#explorar {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1em;
+    cursor: pointer;
+
+
+}
+
+.botaoExplorar {
+    border-color: #0fcbec;
+    color: rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(45deg, #0fc4f1 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #0f57f1 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.botaoExplorar:hover {
+    background-position: 0;
+}

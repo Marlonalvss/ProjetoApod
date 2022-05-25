@@ -1,0 +1,113 @@
+/*---- RESET DO CSS ----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--- CONFIGURAÇÕES DO BODY ---*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,300;1,500&display=swap');
+
+body {
+    background-color: rgb(0, 217, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(../assets/universo.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+}
+#astronautaFormText{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#astronautaGif{
+    width: 300px;
+    height: 400px;
+}
+
+form{
+    width: 25%;
+    height: 70%;
+    background-color: rgba(10, 124, 255, 0.699);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#fotos{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    background-image: url(https://t.ctcdn.com.br/AwxkFgvpQizV0aW2qJ_uHcXQNxU=/i361132.gif);
+    background-position: center;
+    background-size: cover;
+    
+}
+#texto{
+    width: 20%;
+    height: 50%;
+}
+#nome, #data, #viajar{
+    text-align: center;
+    width: 60%;
+    height: 7%;
+    border-radius: 5px;
+}
+#viajar {
+    border-color: #095df8;
+    color: rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(45deg, #095df8 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #095df8 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    cursor: pointer;
+}
+
+#viajar:hover {
+    background-position: 0;
+}
+
+
+p, h2{
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+}
+
+footer{
+    background-color: rgba(10, 124, 255, 0.699);
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#linkedin {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    text-decoration: none;
+}
+#link{
+    font-size: 135%;
+}
+#linkedin:hover{
+    font-size: 135%;
+    transition: 1s;
+}
