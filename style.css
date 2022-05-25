@@ -31,7 +31,7 @@ header {
     justify-content: space-evenly;
 }
 
-#botao{  
+#botao1, #botao2, #botao3, #botao4{  
     display: flex;
     align-items: center;
     justify-content: center;
