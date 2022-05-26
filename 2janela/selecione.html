@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="js.js"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js.js" defer ></script>
+    
     <title>Selecione sua Data</title>
 </head>
 
@@ -15,24 +17,42 @@
     <section id="astronautaFormText">
         <img id="astronautaGif" src="https://img1.picmix.com/output/stamp/normal/5/8/7/8/1568785_f5209.gif"
             alt="astronauta rodando">
-        <form action="">
+        <form id="formulario" action="">
             <div id="fotos"></div>
             <input id="nome" type="text" placeholder="Insira seu primeiro nome">
             <input id="data" type="date">
             <button id="viajar">VIAJAR!<i class="uil uil-rocket"></i></button>
         </form>
         <div id="texto">
-            <h2>Explorador vamos lá!</h2>
+            <h2 id="explor" >Explorador vamos lá!</h2>
             <br>
-            <p>
+            <p id="textoExplor" >
                 Você ainda está sem rumo para onde dever ir, mas calma!
                 Essa parte é bem simples, basta informar seu nome e a data deseja
                 para guiar a sua nave através do tempo!</p>
         </div>
     </section>
-    
+    <section id="mainResApi">
+        <header id="tituloNomeAno">
+            <button id="voltar">Voltar</button>
+           <div id="textoBoasVindas"> 
+               <h3>Olá astronauta</h3>&nbsp;<h3 id="nomeResp"></h3>&nbsp;<h3>veja o que aconteceu nesta data!</h3>&nbsp;<h3 id="dataResp"></h3>
+            </div>
+        </header>
+        <main id="corpoResp">
+            <div id="imagemApi"></div>
+            <div id="caixaTextApi" >
+                <p id="tituloApi"></p>
+                <p id="textoDaApi"></p>
+                <p id="autorApi"></p>
+            </div>
+
+        </main>
+
+
+    </section>
     <footer>
-        <a id="linkedin" href="">Marlon Alves<i id="link" class="uil uil-linkedin"></i></a>
+        <a id="linkedin" href="https://www.linkedin.com/in/marlon-alves-92b96a17b/">Marlon Alves<i id="link" class="uil uil-linkedin"></i></a>
     </footer>
 </body>
 

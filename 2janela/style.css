@@ -81,7 +81,7 @@ form{
 }
 
 
-p, h2{
+#textoExplor, #explor{
     color: white;
     text-shadow: #000 2px 3px 2px;
 }
@@ -110,4 +110,112 @@ footer{
 #linkedin:hover{
     font-size: 135%;
     transition: 1s;
+}
+
+/* --- MAIN PARA RESPOSTA DO PEDIDO NA API --- */
+
+#mainResApi{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+#tituloNomeAno{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(10, 124, 255, 0.699);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    text-transform: uppercase;
+}
+
+#textoBoasVindas{
+    display: flex;
+    flex-direction: row;
+}
+#voltar {
+    text-align: center;
+    width: 10%;
+    height: 40%;
+    border-radius: 5px;
+    border-color: #095df8;
+    color: rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(45deg, #095df8 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #095df8 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    cursor: pointer;
+}
+
+#voltar:hover {
+    background-position: 0;
+}
+
+#corpoResp{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#imagemApi {
+    width: 30vw;
+    height: 70vh;
+    background-color: rgba(10, 124, 255, 0.699);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#caixaTextApi{
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(10, 124, 255, 0.699);
+    
+}
+#tituloApi{
+    width: 100%;
+    height: 10%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    text-transform: uppercase;
+}
+#textoDaApi{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+}
+#autorApi {
+    width: 100%;
+    height: 5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    text-transform: uppercase;
 }
