@@ -20,7 +20,8 @@ body {
     flex-direction: column;
     font-family: Poppins, sans-serif;
 }
-#astronautaFormText{
+
+#astronautaFormText {
     width: 100vw;
     height: 90vh;
     display: flex;
@@ -29,12 +30,13 @@ body {
     justify-content: center;
     justify-content: space-evenly;
 }
-#astronautaGif{
+
+#astronautaGif {
     width: 300px;
     height: 400px;
 }
 
-form{
+form {
     width: 25%;
     height: 70%;
     background-color: rgba(10, 124, 255, 0.699);
@@ -45,25 +47,31 @@ form{
     justify-content: space-around;
     border-radius: 10px;
 }
-#fotos{
+
+#fotos {
     width: 40%;
     height: 40%;
     border-radius: 50%;
     background-image: url(https://t.ctcdn.com.br/AwxkFgvpQizV0aW2qJ_uHcXQNxU=/i361132.gif);
     background-position: center;
     background-size: cover;
-    
+
 }
-#texto{
+
+#texto {
     width: 20%;
     height: 50%;
 }
-#nome, #data, #viajar{
+
+#nome,
+#data,
+#viajar {
     text-align: center;
     width: 60%;
     height: 7%;
     border-radius: 5px;
 }
+
 #viajar {
     border-color: #095df8;
     color: rgb(0, 0, 0);
@@ -81,12 +89,13 @@ form{
 }
 
 
-#textoExplor, #explor{
+#textoExplor,
+#explor {
     color: white;
     text-shadow: #000 2px 3px 2px;
 }
 
-footer{
+footer {
     background-color: rgba(10, 124, 255, 0.699);
     width: 100vw;
     height: 5vh;
@@ -94,6 +103,7 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
 #linkedin {
     width: 50%;
     height: 100%;
@@ -104,17 +114,19 @@ footer{
     text-shadow: #000 2px 3px 2px;
     text-decoration: none;
 }
-#link{
+
+#link {
     font-size: 135%;
 }
-#linkedin:hover{
+
+#linkedin:hover {
     font-size: 135%;
     transition: 1s;
 }
 
 /* --- MAIN PARA RESPOSTA DO PEDIDO NA API --- */
 
-#mainResApi{
+#mainResApi {
     width: 100vw;
     height: 95vh;
     display: flex;
@@ -123,7 +135,7 @@ footer{
     display: none;
 }
 
-#tituloNomeAno{
+#tituloNomeAno {
     width: 100vw;
     height: 10vh;
     background-color: rgba(10, 124, 255, 0.699);
@@ -137,10 +149,11 @@ footer{
     text-transform: uppercase;
 }
 
-#textoBoasVindas{
+#textoBoasVindas {
     display: flex;
     flex-direction: row;
 }
+
 #voltar {
     text-align: center;
     width: 10%;
@@ -161,7 +174,7 @@ footer{
     background-position: 0;
 }
 
-#corpoResp{
+#corpoResp {
     width: 100vw;
     height: 85vh;
     display: flex;
@@ -180,7 +193,7 @@ footer{
     background-position: center;
 }
 
-#caixaTextApi{
+#caixaTextApi {
     width: 50vw;
     height: 70vh;
     border-radius: 10px;
@@ -189,9 +202,10 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: rgba(10, 124, 255, 0.699);
-    
+
 }
-#tituloApi{
+
+#tituloApi {
     width: 100%;
     height: 10%;
     border-radius: 10px;
@@ -202,12 +216,14 @@ footer{
     text-shadow: #000 2px 3px 2px;
     text-transform: uppercase;
 }
-#textoDaApi{
+
+#textoDaApi {
     width: 90%;
     height: 85%;
     display: flex;
     justify-content: center;
 }
+
 #autorApi {
     width: 100%;
     height: 5%;
@@ -222,70 +238,70 @@ footer{
 
 /* --- RESPONSIVIDADE --- */
 
-@media (max-width: 1200px){
-    #fotos{
+@media (max-width: 1200px) {
+    #fotos {
         width: 60%;
         height: 30%;
     }
-    
+
 
 }
 
-@media (max-width: 811px){
+@media (max-width: 811px) {
 
-#textoBoasVindas{
+    #textoBoasVindas {
         width: 80%;
         font-size: 60%;
     }
 
-#corpoResp{
-    display: flex;
-    flex-direction: column;
+    #corpoResp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imagemApi {
+        width: 40%;
+        height: 40%;
+    }
+
+    #caixaTextApi {
+        width: 90%;
+        height: 50%;
+    }
+
 }
 
-#imagemApi{
-    width: 40%;
-    height: 40%;
-}
-
-#caixaTextApi {
-    width: 90%;
-    height: 50%;
-}
-
-}
-
-@media (max-width: 745px){
+@media (max-width: 745px) {
     #astronautaGif {
 
         width: 30%;
-    
+
     }
 
     #formulario {
         width: 35%;
     }
 
-    #textoBoasVindas{
+    #textoBoasVindas {
         width: 80%;
         font-size: 60%;
     }
 
-    
+
 }
 
-@media (max-width: 660px){
+@media (max-width: 660px) {
 
-    #voltar{
+    #voltar {
         width: 10%;
     }
 
-    #textoBoasVindas{
+    #textoBoasVindas {
         width: 80%;
         font-size: 60%;
     }
 
-    #imagemApi{
+    #imagemApi {
         width: 40%;
         height: 35%;
     }
@@ -296,16 +312,16 @@ footer{
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
 
-    #astronautaFormText{
+    #astronautaFormText {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
     #astronautaGif {
-    display: none;
+        display: none;
     }
 
     #formulario {
@@ -313,26 +329,27 @@ footer{
         height: 50%;
     }
 
-    #texto{
+    #texto {
         width: 40%;
         height: 40%;
     }
 
+    #viajar,
+    #nome,
+    #data {
+        width: 75%;
+    }
 
-#viajar, #nome , #data {
-    width: 75%;
-}
-
- #voltar{
+    #voltar {
         width: 30%;
     }
 
-    #textoBoasVindas{
+    #textoBoasVindas {
         width: 80%;
         font-size: 50%;
     }
 
-    #imagemApi{
+    #imagemApi {
         width: 70%;
         height: 35%;
     }
@@ -341,33 +358,34 @@ footer{
         width: 100%;
         height: 60%;
     }
+
     #olaText {
         display: none;
     }
 
-    #vejaAconte{
+    #vejaAconte {
         display: none;
     }
 
 
 }
 
-@media (max-width: 430px){
+@media (max-width: 430px) {
 
-    body{
+    body {
         height: 100%;
     }
 
-    #voltar{
+    #voltar {
         width: 30%;
     }
 
-    #textoBoasVindas{
+    #textoBoasVindas {
         width: 80%;
         font-size: 80%;
     }
 
-    #imagemApi{
+    #imagemApi {
         width: 50%;
         height: 20%;
     }
@@ -381,31 +399,29 @@ footer{
         display: none;
     }
 
-    #vejaAconte{
+    #vejaAconte {
         display: none;
     }
-   
+
 }
 
-
-
-@media (max-width: 315px){
+@media (max-width: 315px) {
     #formulario {
         width: 65%;
         height: 40%;
     }
 
-    #texto{
+    #texto {
         width: 65%;
         height: 30%;
 
     }
 
-    #voltar{
+    #voltar {
         width: 30%;
     }
 
-    #imagemApi{
+    #imagemApi {
         width: 50%;
         height: 20%;
     }
@@ -416,4 +432,3 @@ footer{
         font-size: small;
     }
 }
-
