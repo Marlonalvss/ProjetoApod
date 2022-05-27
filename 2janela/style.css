@@ -219,3 +219,197 @@ footer{
     text-shadow: #000 2px 3px 2px;
     text-transform: uppercase;
 }
+
+/* --- RESPONSIVIDADE --- */
+
+@media (max-width: 1200px){
+    #fotos{
+        width: 60%;
+        height: 30%;
+    }
+    
+
+}
+
+@media (max-width: 811px){
+
+#textoBoasVindas{
+        width: 80%;
+        font-size: 60%;
+    }
+
+#corpoResp{
+    display: flex;
+    flex-direction: column;
+}
+
+#imagemApi{
+    width: 40%;
+    height: 40%;
+}
+
+#caixaTextApi {
+    width: 90%;
+    height: 40%;
+}
+
+}
+
+@media (max-width: 745px){
+    #astronautaGif {
+
+        width: 30%;
+    
+    }
+
+    #formulario {
+        width: 35%;
+    }
+
+    #textoBoasVindas{
+        width: 80%;
+        font-size: 60%;
+    }
+
+    
+}
+
+@media (max-width: 660px){
+
+    #voltar{
+        width: 10%;
+    }
+
+    #textoBoasVindas{
+        width: 80%;
+        font-size: 60%;
+    }
+
+    #imagemApi{
+        width: 40%;
+        height: 35%;
+    }
+
+    #caixaTextApi {
+        width: 90%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 500px){
+
+    #astronautaFormText{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #astronautaGif {
+    display: none;
+    }
+
+    #formulario {
+        width: 60%;
+        height: 50%;
+    }
+
+    #texto{
+        width: 40%;
+        height: 40%;
+    }
+
+
+#viajar, #nome , #data {
+    width: 75%;
+}
+
+ #voltar{
+        width: 30%;
+    }
+
+    #textoBoasVindas{
+        width: 80%;
+        font-size: 50%;
+    }
+
+    #imagemApi{
+        width: 70%;
+        height: 35%;
+    }
+
+    #caixaTextApi {
+        width: 90%;
+        height: 60%;
+    }
+    #olaText {
+        display: none;
+    }
+
+    #vejaAconte{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 430px){
+
+    #voltar{
+        width: 30%;
+    }
+
+    #textoBoasVindas{
+        width: 80%;
+        font-size: 80%;
+    }
+
+    #imagemApi{
+        width: 50%;
+        height: 20%;
+    }
+
+    #caixaTextApi {
+        width: 90%;
+        height: 70%;
+    }
+
+    #olaText {
+        display: none;
+    }
+
+    #vejaAconte{
+        display: none;
+    }
+   
+}
+
+
+
+@media (max-width: 315px){
+    #formulario {
+        width: 65%;
+        height: 40%;
+    }
+
+    #texto{
+        width: 65%;
+        height: 30%;
+
+    }
+
+    #voltar{
+        width: 30%;
+    }
+
+    #imagemApi{
+        width: 50%;
+        height: 20%;
+    }
+
+    #caixaTextApi {
+        width: 100%;
+        height: 80%;
+    }
+
+}
+
