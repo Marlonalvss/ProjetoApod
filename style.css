@@ -191,3 +191,54 @@ main {
 .botaoExplorar:hover {
     background-position: 0;
 }
+
+/* ---- RESPONSIVIDADE ----*/ 
+
+@media (max-width: 700px){
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #botao1, #botao2, #botao3, #botao4{  
+      
+        width: 60%;
+        height: 35px;
+      
+    }
+
+    #astronauta {
+        display: none;
+    }
+
+    .card img {
+        top: 50%;
+        left: 50%;
+        height: 70%;
+    
+    }
+
+    .card:hover img {
+        top: 85%;
+        height: 20%;
+    }
+
+    .card {
+        width: 85%;
+        height: 75%;
+    }
+    .card .textoabertura {
+        width: 100%;
+        left: 5%;
+        padding: 10px 10px 10px 20px;
+        
+    }
+}
+
