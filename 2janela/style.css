@@ -128,11 +128,14 @@ footer {
 
 #mainResApi {
     width: 100vw;
-    height: 95vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     display: none;
+    background-image: url(../assets/universo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #tituloNomeAno {
@@ -176,7 +179,7 @@ footer {
 
 #corpoResp {
     width: 100vw;
-    height: 85vh;
+    height: 110vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -239,6 +242,11 @@ footer {
 /* --- RESPONSIVIDADE --- */
 
 @media (max-width: 1200px) {
+    #corpoResp{
+        height: 130vh;
+        background-image: cover;
+    }
+
     #fotos {
         width: 60%;
         height: 30%;
@@ -265,8 +273,8 @@ footer {
     }
 
     #caixaTextApi {
-        width: 90%;
-        height: 50%;
+        width: 100%;
+        height: auto;
     }
 
 }
@@ -286,7 +294,7 @@ footer {
         width: 80%;
         font-size: 60%;
     }
-
+    
 
 }
 
@@ -302,13 +310,13 @@ footer {
     }
 
     #imagemApi {
-        width: 40%;
+        width: 60%;
         height: 35%;
     }
 
     #caixaTextApi {
-        width: 90%;
-        height: 60%;
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -356,7 +364,7 @@ footer {
 
     #caixaTextApi {
         width: 100%;
-        height: 60%;
+        height: auto;
     }
 
     #olaText {
@@ -366,15 +374,18 @@ footer {
     #vejaAconte {
         display: none;
     }
-
+    #linkedin{
+        display: none;
+    }
 
 }
 
 @media (max-width: 430px) {
 
-    body {
-        height: 100%;
+    body{
+        height: 130vh;
     }
+
 
     #voltar {
         width: 30%;
@@ -392,7 +403,7 @@ footer {
 
     #caixaTextApi {
         width: 100%;
-        height: 90%;
+        height: 100vh;
     }
 
     #olaText {
@@ -406,6 +417,10 @@ footer {
 }
 
 @media (max-width: 315px) {
+    body{
+        height: 130vh;
+    }
+
     #formulario {
         width: 65%;
         height: 40%;
