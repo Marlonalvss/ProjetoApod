@@ -346,6 +346,7 @@ footer {
     #nome,
     #data {
         width: 75%;
+        height: 10%;
     }
 
     #voltar {
