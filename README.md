@@ -2,7 +2,7 @@
 
 <img src="https://media.discordapp.net/attachments/999712721941581977/1011687121964236830/ProjetoApod.jpg?width=889&height=400" alt="exemplo imagem">
 
-> O objetivo deste projeto é consumir a API disponibilizada pela Nasa. 
+> O objetivo deste projeto é consumir a API disponibilizada pela Nasa. <br/>
 > Conheça o site aqui : "https://marlonalvss.github.io/ProjetoApod/"
 ## 💻 Pré-requisitos
 
